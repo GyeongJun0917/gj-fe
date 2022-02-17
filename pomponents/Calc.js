@@ -1,5 +1,5 @@
 import React from "react";
-const Calc =()=>{
+export default function Calc(){
     return<><h1>계산기</h1>
     <from>
     <div><br />
@@ -17,4 +17,3 @@ const Calc =()=>{
     </>
 }
 
-export default Calc;

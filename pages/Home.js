@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../containers/Header";
-const Home =()=> <><h1>Home</h1>
-<Header/>
-</>
-
-export default Home
+import Layout from "../containers/Layout";
+export default function Home(){
+   return( <Layout>
+            <h1>Home</h1>
+            </Layout>)
+}

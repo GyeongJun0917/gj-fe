@@ -1,5 +1,5 @@
 import React from "react";
-const Grade = ()=>{
+export default function Grade(){
 return <><h1>Grade</h1>
 <from>
 <div>
@@ -18,4 +18,3 @@ return <><h1>Grade</h1>
 </from>
 </>
 }
-export default Grade
