@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom'
-import Home from "./hello/Home";
-import Bmi from "./hello/Bmi";
-import Calc from "./hello/Calc";
-import Grade from "./hello/Grade";
-import Login from "./hello/Login";
+import Home from "./pages/Home";
+import Bmi from "./pomponents/Bmi";
+import Calc from "./pomponents/Calc";
+import Grade from "./pomponents/Grade";
+import Login from "./pomponents/Login";
 
 const App = () =>{
 return (
