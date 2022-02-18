@@ -1,5 +1,6 @@
-import React from "react";
+import React, {useState} from "react";
 export default function Grade(){
+    const [kor, setKor] = useState(0)
 return <><h1>Grade</h1>
 <from>
 <div>
