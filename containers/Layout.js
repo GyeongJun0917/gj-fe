@@ -28,6 +28,7 @@ const Table = styled.table`
     border: 1px solid #DD0000;
     width: 1000px;
     height: 500px;
+    text-align: center;
 `
 const Tr = styled.tr`
     border: 1px solid #DD0000

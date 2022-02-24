@@ -1,11 +1,11 @@
 import React from "react";
 import {useRoutes} from 'react-router-dom'
 import Home from "./pages/Home";
-import Bmi from "./pomponents/Bmi";
-import Calc from "./pomponents/Calc";
-import Counter from "./pomponents/Counter";
-import Grade from "./pomponents/Grade";
-import Login from "./pomponents/Login";
+import Bmi from "./components/Bmi";
+import Calc from "./components/Calc";
+import Counter from "./components/Counter";
+import Grade from "./components/Grade";
+import Login from "./components/Login";
 
 export default function App (){
 return useRoutes([
